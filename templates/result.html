@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Results | Ecotrack</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="bg">
+    <div class="container">
+        <h2>📊 Your Daily Carbon Footprint</h2>
+        <p>🚗 Travel: {{ travel_em | round(2) }} kg CO₂</p>
+        <p>🍽️ Food: {{ food_em | round(2) }} kg CO₂</p>
+        <p>💡 Energy: {{ energy_em | round(2) }} kg CO₂</p>
+        <hr>
+        <h3>🌡️ Total: {{ total_em | round(2) }} kg CO₂</h3>
+
+        <h4>🌿 Eco Tips:</h4>
+        <ul>
+            {% for tip in tips %}
+            <li>{{ tip }}</li>
+            {% endfor %}
+        </ul>
+
+        <a class="back" href="{{ url_for('calculate') }}">🔁 Track Another Day</a>
+        <a class="logout" href="{{ url_for('logout') }}">🚪 Logout</a>
+    </div>
+</body>
+</html>

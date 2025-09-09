@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ecotrack | Carbon Footprint</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="bg">
+    <div class="container">
+        <h2>🌍 Ecotrack - Daily Carbon Tracker</h2>
+        <form method="POST" action="{{ url_for('calculate') }}">
+            <label>🚗 Distance Travelled (km)</label>
+            <input type="number" name="km" min="0" step="any" required>
+
+            <label>🚌 Transport Mode</label>
+            <select name="mode">
+                <option value="car">🚗 Car</option>
+                <option value="bus">🚌 Bus</option>
+                <option value="train">🚆 Train</option>
+                <option value="bike">🚴 Bike</option>
+                <option value="walk">🚶 Walk</option>
+            </select>
+
+            <label>🥗 Diet Type</label>
+            <select name="diet">
+                <option value="meat lover">🍖 Meat Lover</option>
+                <option value="average">🍽️ Average</option>
+                <option value="vegetarian">🥦 Vegetarian</option>
+                <option value="vegan">🌿 Vegan</option>
+            </select>
+
+            <label>💡 Electricity Used (kWh)</label>
+            <input type="number" name="kwh" min="0" step="any" required>
+
+            <button type="submit">Calculate Footprint</button>
+        </form>
+        <a class="logout" href="{{ url_for('logout') }}">🚪 Logout</a>
+    </div>
+</body>
+</html>

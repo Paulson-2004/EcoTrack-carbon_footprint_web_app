@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register | Ecotrack</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="bg">
+    <div class="container">
+        <h2>📝 Create an Ecotrack Account</h2>
+        {% if error %}
+        <div class="error">{{ error }}</div>
+        {% endif %}
+        <form method="POST">
+            <label>👤 Username</label>
+            <input type="text" name="username" placeholder="Choose a username" required>
+
+            <label>🔑 Password</label>
+            <input type="password" name="password" placeholder="Choose a password" required>
+
+            <button type="submit">Register</button>
+        </form>
+        <a class="back" href="{{ url_for('login') }}">Already have an account? Login</a>
+    </div>
+</body>
+</html>
