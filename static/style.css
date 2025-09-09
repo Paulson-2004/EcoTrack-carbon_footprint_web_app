@@ -1,0 +1,84 @@
+body.bg {
+    font-family: 'Segoe UI', sans-serif;
+    background: #121212;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    background: #1e1e1e;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 480px;
+    margin: 60px auto;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+  }
+  
+  h1, h2, h3, h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #a1ef8b;
+  }
+  
+  input, select, button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #2c2c2c;
+    color: #f0f0f0;
+  }
+  
+  input::placeholder {
+    color: #aaa;
+  }
+  
+  select {
+    appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='%23aaa' height='18' viewBox='0 0 24 24' width='18' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 18px;
+  }
+  
+  button {
+    background-color: #43a047;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #388e3c;
+  }
+  
+  .error {
+    color: #ffdddd;
+    background: #ff4d4d;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  a.logout, a.back {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #82e0aa;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li::before {
+    content: "🌿 ";
+    margin-right: 8px;
+  }
+  
