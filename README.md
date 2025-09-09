@@ -68,9 +68,16 @@ carbon_footprint_web_app/
 
 ---
 
-📜 License
+📸 Screenshots
 
-MIT License – see the [LICENSE](LICENSE) file for details.
+Login/Register Page
+<img width="1920" height="879" alt="Screenshot 2025-05-07 214434" src="https://github.com/user-attachments/assets/8a511b2e-6f26-40cb-a94c-ffae3e3579fa" />
+Main Page
+<img width="1920" height="892" alt="image" src="https://github.com/user-attachments/assets/05e81942-46b6-4994-b53f-66798435cd64" />
+Report
+<img width="1920" height="881" alt="image" src="https://github.com/user-attachments/assets/9202cd57-8790-4cfd-b639-1d9bbd909abb" />
+Database (SSMS)
+<img width="1591" height="813" alt="image" src="https://github.com/user-attachments/assets/2afea549-5939-44c8-bd8a-bf1a6eed7041" />
 
 ---
 
