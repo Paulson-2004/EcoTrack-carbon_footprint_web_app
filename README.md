@@ -1,11 +1,10 @@
-
-🌱 EcoTrack – Carbon Footprint Web App
+## 🌱 EcoTrack – Carbon Footprint Web App
 
 EcoTrack is a full-stack web application that helps users track and analyze their carbon footprint. The app allows users to register, log in, input their activities, and view their carbon usage results. It is built using Flask, Python, HTML, and CSS with secure environment configuration.
 
 ---
 
-🚀 Features
+## 🚀 Features
 
 ✔ User registration and login  
 ✔ Track daily carbon footprint activities  
@@ -15,7 +14,7 @@ EcoTrack is a full-stack web application that helps users track and analyze thei
 
 ---
 
-🛠 Technology Stack
+## 🛠 Technology Stack
 
 - **Backend**: Flask (Python)  
 - **Frontend**: HTML, CSS  
@@ -24,7 +23,7 @@ EcoTrack is a full-stack web application that helps users track and analyze thei
 
 ---
 
-📂 Project Structure
+## 📂 Project Structure
 
 ```
 carbon_footprint_web_app/
@@ -41,7 +40,7 @@ carbon_footprint_web_app/
 
 ---
 
-⚙ Setup Instructions
+## ⚙ Setup Instructions
 
 1. Clone the repository:
    ```bash
@@ -68,7 +67,7 @@ carbon_footprint_web_app/
 
 ---
 
-📸 Screenshots
+## 📸 Screenshots
 
 Login/Register Page
 <img width="1920" height="879" alt="Screenshot 2025-05-07 214434" src="https://github.com/user-attachments/assets/8a511b2e-6f26-40cb-a94c-ffae3e3579fa" />
@@ -81,7 +80,7 @@ Database (SSMS)
 
 ---
 
-📞 Contact
+## 📞 Contact
 
 Created by **Paulson J.**  
 Feel free to fork, contribute, or open issues!
