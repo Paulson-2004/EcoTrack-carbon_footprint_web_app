@@ -27,7 +27,8 @@ EcoTrack is a full-stack web application that helps users track and analyze thei
 
 ```
 carbon_footprint_web_app/
-├── .env                    # Environment configuration
+├── .env.example            # Environment configuration template
+├── .gitignore              # Git ignore rules
 ├── app.py                  # Flask application
 ├── static/
 │   └── style.css            # Styling files
@@ -53,8 +54,14 @@ carbon_footprint_web_app/
    pip install flask python-dotenv
    ```
 
-3. Create a `.env` file:
+3. Create a `.env` file (copy `.env.example` and set your credentials):
    ```env
+   DB_USER=your_db_user
+   DB_PASSWORD=your_db_password
+   DB_SERVER=your_db_server
+   DB_DATABASE=your_db_database
+   DB_PORT=1433
+   TRUST_SERVER_CERTIFICATE=true
    SECRET_KEY=your_secret_key
    ```
 
